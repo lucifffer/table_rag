@@ -1,5 +1,5 @@
 # table_rag
-根据上传的表格PDF进行问答
+根据上传的表格PDF进行问答，注意将文件中的接口api替换为自己的api（包括MinerU服务接口和DeepSeek服务接口）
 ## 通过MinerU获取PDF解析结果
 MinerU可以将PDF文件解析为结构化json格式，包含页眉、页脚、表格等信息。支持API调用和本地服务部署（开源协议apache 2.0）
 ```
